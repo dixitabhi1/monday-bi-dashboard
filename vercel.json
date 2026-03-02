@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "redirects": [
+    { "source": "/app", "destination": "/", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
